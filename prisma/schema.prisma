@@ -9,11 +9,11 @@ generator client {
 }
 
 model User {
-  id             Int     @id @default(autoincrement())
-  name           String? @db.VarChar(255)
-  handle         String  @unique
-  email          String  @unique @db.VarChar(255)
-  hashedPassword String
+  id      Int     @id @default(autoincrement())
+  address String  @unique @db.VarChar(255)
+  name    String? @db.VarChar(255)
+  handle  String? @unique
+  email   String? @unique @db.VarChar(255)
 
   memberships Membership[]
 

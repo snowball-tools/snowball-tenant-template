@@ -13,3 +13,17 @@ yarn install
 ```sh
 yarn dev
 ```
+
+## Prisma
+
+### Generate Prisma Client
+
+```sh
+yarn prisma generate
+```
+
+### Migrate Database
+
+```sh
+yarn prisma migrate dev
+```
