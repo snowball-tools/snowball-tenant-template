@@ -53,7 +53,9 @@ enum MembershipRole {
 model Domain {
   domain String @id
 
-  isValid Boolean // This boolean should be true if a cronjob monitors that the domain points to our app address
+  isValid  Boolean
+  name     String
+  bundleId String
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
