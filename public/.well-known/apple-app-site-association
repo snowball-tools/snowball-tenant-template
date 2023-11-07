@@ -4,8 +4,20 @@
     "details": [
       {
         "appID": "9SAQ42S589.xyz.snowballtools.PasskeySubdomainExample",
-        "paths": [ "*" ]
+        "paths": [
+          "*"
+        ],
+        "components": [
+          {
+            "/": "/*"
+          }
+        ]
       }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "9SAQ42S589.xyz.snowballtools.PasskeySubdomainExample"
     ]
   }
 }

@@ -62,3 +62,9 @@ Associate iOS Bundle Ids to this domain
   },
 ...
 ```
+
+- test the association
+
+```sh
+curl -v <domain>/.well-known/apple-app-site-association
+```
